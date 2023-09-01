@@ -1,0 +1,11 @@
+@media (max-width: 280px) {
+  .box {
+    max-width: 280px;
+    padding: .5rem;
+    border: none;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

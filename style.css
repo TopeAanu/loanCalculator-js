@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgb(27, 0, 88);
+  color: #ccc;
+}
+
+.box {
+  justify-content: center;
+  border: 1px solid #ccc;
+  margin: auto;
+  max-width: 300px;
+  margin-top: 4rem;
+}
+
+.container {
+  padding: 1rem .5rem;
+}
+
+/* Headings */
+.heading {
+  padding: .5rem;
+}
+
+/* Input divs */
+.form-class {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+
+input {
+  width: 100%;
+  padding: .5rem;
+  outline: none;
+  border-radius: 5px;
+  caret-color: #333;
+}
+
+input:disabled {
+  color: #fff;
+  background: #8d8a8a;
+}
+
+/* Remove input spin */
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+  appearance: none; 
+}
+
+/* Position span elements */
+.span-class {
+  position: absolute;
+  padding: .5rem;
+  margin-right: .5rem;
+  margin-top: 0.6rem;
+  right: 0;
+  top: 0;
+  color: #333;
+  font-size: .8rem;
+}
+
+/* Calculate btn */
+.btn {
+  background: #ccc;
+  display: block;
+  width: 100%;
+  border: none;
+  transition: .7s;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #8d8a8a;
+}
+
+/* Loading gif */
+#loader {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  padding-top: 1rem;
+}
+
+/* Error message */
+.alert-error {
+  color: rgb(252, 63, 63);
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: .5rem;
+}
+
+#loader, #results {
+  display: none;
+}
