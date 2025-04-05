@@ -1,3 +1,2 @@
-# loanCalculator-js
-Just hit another milestone!
-Js keeps getting interesting as there's much to be done with it. after delving deeper into the js dom, i was able to develop a simple-interface calculator that allows users to calculate total payment, monthly payment, and total interest of a loan. in the project, i got understanding on how to compute values with vars and gained more knowledge about function. the app takes in the amount, interest, years to repay and output the total payment, monthly payment, and total interest. it also has a conditional that displays an error message if no value is inputed. i love js 🥳😊.
+# Loan Calculator 
+Built loan calculator to solve the problem of calculating interest of a loan. Built with html, css and javascript. View the project [here](https://topeloancalculator.netlify.app/) 
